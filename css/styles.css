@@ -1,0 +1,51 @@
+.container h1{
+    padding-top: 65vh;
+    
+    text-align: center;
+}
+
+.text{
+    font-size: 45px;
+
+    text-shadow: 2px 2px 2px #000000;
+
+    color: #eeeeee;
+}
+
+.container .buttons button{
+    padding: .4rem 1.2rem;
+    margin: 1rem;
+    
+    border-radius: 3rem;
+    border: .1rem solid #eeeeee;
+    
+    text-shadow: 2px 2px 2px #000000;
+
+    background-color: transparent;
+    color: #eeeeee;
+}
+
+.buttons button{
+    box-shadow: 1px 1px 1px #000;
+}
+.buttons button:active{
+    box-shadow: none;
+
+    transform: translate(0);
+}
+
+#canvas-image-blending{
+    position: absolute;
+    
+    display: block;
+    
+    width: 100%;
+    height: 100%;
+    
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    
+    z-index: -999;
+}
